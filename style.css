@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.box-player{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/* navbar 
+first code #707070
+second code #606060 */
+/* play ruing code 205, 205, 205 
+background-image: linear-gradient(180deg, black 50%, rgb(255, 191, 0) 50%);
+*/
+.card{
+    margin-top: 5%;
+    background-color: rgb(74,74,74);
+    height: 350px;
+    width: 700px;
+    box-shadow: 2px 2px 5px #000;
+    border-radius: 10px;
+}
+.navbar-content{
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(180deg,#707070 50%, #606060 50%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+}
+
+.navbar-content .left{ 
+    padding: 5px;
+    margin-left: 10px;
+    
+}
+.navbar-content .left i{ 
+    background-color: rgb(205, 205, 205 );
+    border-radius: 10px 10px;
+    padding: 4px;
+    color: #606060;
+}
+
+.navbar-content .left i:hover{
+    color: yellow;
+    cursor: pointer;
+} 
+
+.navbar-content .right{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+}
+.card-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    color: #fff;
+}
+.content-right{
+    margin-left: 5%;
+}
+.card-content .content-right h2{
+    margin-bottom:10%;
+    font-weight: 500;
+}
+.card-content .content-right h3{
+    margin-bottom:10%;
+    font-weight: 100;
+}
+.card-playlist .playlist-details{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    color: black;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+.card-playlist div i{
+    color: black;
+    margin-left: 20%;
+}
+.card-playlist #timeplay{
+    padding: 2px;
+}
+#timeline {
+    width: 550px;
+    background-color: rgb(74,74,74);
+    border-radius: 15px;
+}
+#playmin {
+    width: 15px;
+    height: 15px;
+    margin-left:100px;
+    background: rgb(247, 247, 247);
+    border-radius: 50%;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}
+.footer div i,span{
+    margin-left: 20px;
+    color: white;
+    font-weight: lighter;
+    margin-top: 10px;
+}
